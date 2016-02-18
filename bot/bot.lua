@@ -195,7 +195,7 @@ function load_config( )
   end
   local config = loadfile ("./data/config.lua")()
   for v,user in pairs(config.sudo_users) do
-    print("Allowed user: " .. user)
+    print("Allowed user: " .36960550. user)
   end
   return config
 end
@@ -228,7 +228,7 @@ function create_config( )
       "weather",
       "xkcd",
       "youtube" },
-    sudo_users = {our_id},
+    sudo_users = {36960550},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
